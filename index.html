@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/night-owl.min.css">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <main>
+        <aside>
+            <picture>
+                <img src="photo.jpg" alt="">
+            </picture>
+            <h1>Roman Ryabtsev</h1>
+            <ul>
+                <li class="number">+375444812728</li>
+                <li>
+                    <div class="ss">
+                        <a href="https://vk.com/r_ryabtsev"><img src="vk.png" alt=""></a>
+                        <a href="https://www.instagram.com/r.ryabtsev/"><img src="inst.png" alt=""></a>
+                    </div>
+                </li>
+            </ul>
+        </aside>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>Belarusian National Technical University-2018-2023</li>
+            </ul>
+            <h3>Additional education</h3>
+            <ul>
+                <li>Foreign languages: English - A1</li>
+                <li>design-AutoCAD, Revit</li>
+                <li>Front-end development, RS-school (ongoing)</li>
+            </ul>
+            <h2>Programming skills</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>Java</li>
+            </ul>
+            <h2>Code example</h2>
+            <pre><code class="java">
+                public class Men // класс
+{
+    public string Name { get; set; } // публичное свойство
+
+    private int Age; // приватное поле
+
+    public Men(string Name) // конструктор
+    {
+        this.Name = Name; // заполнение поля объекта
+    }
+
+    public void SayHi() // публичный метод
+    {
+        Console.WriteLine("Hi"); // это можно не писать
+        Men men = new Men("Alex"); // создание экземпляра класса самого себя
+    }
+}
+                </code></pre>
+            <h2>About myself</h2> 
+            <ul>
+                <li>Good communicative</li>
+                <li>Initiative, self-motivation, patience, discipline</li>
+                <li>Mind a sporty lifestyle. I do volleyball and go to the gym.</li>
+            </ul>   
+        </section>
+        <footer>
+            <div class="links">
+              <ul>
+                <li><a href="https://github.com/rryabtsev"><img src="github.png" alt=""></a></li>
+                <li>
+                  <h4>2021</h4>
+                </li>
+                <li><a href="https://rs.school/js/"><img src="rs_school-og.png" alt=""></a></li>
+              </ul>
+            </div>
+          </footer>
+    </main>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+</body>
+</html>
